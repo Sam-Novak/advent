@@ -28,7 +28,7 @@ public class main {
                 int L = str.length();
 
                 boolean T = false;
-                for (int u = 1;u<=L;u++)
+                for (int u = 2;u<=L;u++)
                 {
                     // for repeating possibility
                     if (L%u==0)
@@ -39,7 +39,6 @@ public class main {
                         for (int J = 0;J<=u-1;J++)
                         {
                             // for each group of two divisions
-                            System.out.println(str);
                             if (!(str.substring(0,L/u).equals(str.substring((J)*L/u,(J+1)*L/u))))
                             {
                                 T = false;
