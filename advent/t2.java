@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class main {
+public class t2 {
     public static void main(String[] args) throws FileNotFoundException 
     {
         long total = 0l;
