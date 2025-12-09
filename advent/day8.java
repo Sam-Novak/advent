@@ -53,10 +53,11 @@ public class day8 {
         Collections.sort(pair_list, new Comparator<pair>() {
             @Override
             public int compare(pair a1, pair a2) {
-            return Math.round(a1.dist - a2.dist);
+                return Math.round(a1.dist - a2.dist);
             }
         });
 
+        
         
     }
    
